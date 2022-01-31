@@ -104,7 +104,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://m.facebook.com/')Cyber.POlice.00001
+		    os.system('xdg-open https://m.facebook.com/Cyber.POlice.00001')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
